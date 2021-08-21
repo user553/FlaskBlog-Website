@@ -1,0 +1,11 @@
+gunicorn
+Flask
+Pillow
+SQLAlchemy<1.4
+Flask-SQLAlchemy
+WTForms
+flask-login
+Flask-Bcrypt
+PyMySQL
+Flask-WTF
+email_validator

@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block content %}
+
+    <h1 class="mt-5 ">About me!</h1>
+    <article>
+        <h1 class="mt-2 mb-5">
+            @neetashpataria
+        </h1>
+        <img width="25%" src="{{ url_for('static', filename='me.jpg') }}" style="border-radius: 10px; margin-bottom: 40px; margin-left: 5px; float: right;">
+        <p>
+            Hello! I am a postgraduate student at Cardiff university, School of Computer Science and Informatics. My major is MSc Computing focusing on Datastructures, Algorithms and Data visualisation. 
+        </p>
+        <p>
+            Now my life isn’t as dramatic as a moviestar. But I can definitely relate my exploration of majors to a similar movie plot. Born in this world as a son of an engineer, I started to play with machines aged 10. My father believed in learning hands on, and taught me a lot of principles by connecting life to the engineering world. For instance, he correlated adding grease at a hinge joint with adding trust in relationships! I have spent a major part of my childhood opening old electronics, trying to understand the motherboard and putting them back together. I liked it a lot, and could imagine nothing else I could be proficient at. Hence, I decided to pursue engineering as my major. I hold a degree in Electrical engineering from SV-NIT, one of Indias most prominent institutions for higher education. During my time at SV-NIT, I have worked on projects ranging from small functional bots to highend solar projects. And this is when my journey with programming began.
+        </p>
+        <p>
+            This happened to be the most astounding experience of my life. Once I started to understand the language and program, there was no way I could stop. I wrote codes whenever I had the time. I sometimes had to work my way round to get the code to work, but the win at the end was worth it. I write these blogs to connect to the people who aspire to be a part of the this ongoing revolution called computer science. To provide them with insights in the industry and how it is like to be a freelance web developer. 
+        </p>
+        <p class="mb-3">
+            If you are a brand and would like to collaborate, or are a reader with questions, comments or suggestions, please contact me at npataria30@hotmail.com
+        </p>
+    </article>
+{% endblock content %}

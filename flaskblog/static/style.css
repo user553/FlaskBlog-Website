@@ -1,0 +1,23 @@
+.login-box{
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px gray;
+}
+.login-box img{
+    padding: 10%;
+    border-radius: 30px;
+}
+.login-box .btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: 007bff;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.login-box .btn1:hover{
+    background: white;
+    border: 1px solid;
+    color: #007bff;
+}
